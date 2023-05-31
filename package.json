@@ -1,0 +1,27 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint:prettier": "prettier -c .",
+    "format:prettier": "prettier --write ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.1.44",
+    "@unocss/preset-icons": "^0.52.7",
+    "@unocss/preset-wind": "^0.52.7",
+    "@unocss/transformer-directives": "^0.52.7",
+    "@unocss/vite": "^0.52.7",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.52.7",
+    "solid-js": "^1.7.6"
+  }
+}
