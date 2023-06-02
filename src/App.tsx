@@ -1,5 +1,11 @@
+import { Router } from '@solidjs/router';
+
 import { IndexPage } from './pages/Index';
 
 export const App = () => {
-  return <IndexPage />;
+  return (
+    <Router>
+      <IndexPage />
+    </Router>
+  );
 };
