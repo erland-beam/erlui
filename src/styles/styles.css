@@ -1,0 +1,5 @@
+/* .index-gradient::before {
+  @apply content-[''] absolute bg-erlui bg-[url(//astro.build/assets/noise.webp)] bg-blend-overlay w-full top-0 bottom-0 z--1;
+  mask-image: radial-gradient(rgba(0, 0, 0, 0.5), transparent 70%);
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 0.5), transparent 70%);
+} */

@@ -5,7 +5,6 @@ import SolidJS from 'vite-plugin-solid';
 import UnoCSS from '@unocss/vite';
 import presetWind, { Theme } from '@unocss/preset-wind';
 import presetIcons from '@unocss/preset-icons';
-import presetWebFonts from '@unocss/preset-web-fonts';
 import transformerDirectives from '@unocss/transformer-directives';
 
 export default defineConfig({
