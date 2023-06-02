@@ -1,14 +1,10 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint:prettier": "prettier -c .",
     "format:prettier": "prettier --write ."
   },
-  "license": "MIT",
   "devDependencies": {
     "@iconify-json/material-symbols": "^1.1.44",
     "@unocss/preset-icons": "^0.52.7",
