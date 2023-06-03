@@ -1,5 +1,9 @@
 @import url(//fonts.googleapis.com/css2?family=Rubik:wght@300..700&family=Fira+Code:wght@300..700&display=swap);
 
+::selection {
+  @apply bg-erlui/75;
+}
+
 body {
   @apply font-sans text-white bg-dark-600;
 }
