@@ -27,7 +27,7 @@ export const IndexPage = () => {
 
           await connectToPlayground(formData.get('playground-url')!.toString());
 
-          navigate('/playground');
+          navigate('/erlui/playground');
         }}
         class='flex items-center text-lg w-full max-w-128 min-w-64 border-2 border-solid border-rose rounded-full'
       >
