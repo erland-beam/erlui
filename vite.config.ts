@@ -8,6 +8,7 @@ import presetIcons from '@unocss/preset-icons';
 import transformerDirectives from '@unocss/transformer-directives';
 
 export default defineConfig({
+  base: '/erlui/', // TODO: Set this only on PROD mode
   build: {
     target: 'esnext',
   },
