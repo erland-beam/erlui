@@ -6,8 +6,8 @@ import { PlaygroundPage } from './pages/Playground';
 export const App = () => {
   return (
     <Routes>
-      <Route path='/' component={IndexPage} />
-      <Route path='/playground' component={PlaygroundPage} />
+      <Route path='/erlui' component={IndexPage} />
+      <Route path='/erlui/playground' component={PlaygroundPage} />
     </Routes>
   );
 };
