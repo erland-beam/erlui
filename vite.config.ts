@@ -8,6 +8,9 @@ import presetIcons from '@unocss/preset-icons';
 import transformerDirectives from '@unocss/transformer-directives';
 
 export default defineConfig({
+  build: {
+    target: 'esnext',
+  },
   plugins: [
     SolidJS(),
     UnoCSS({
@@ -36,7 +39,4 @@ export default defineConfig({
       },
     }),
   ],
-  build: {
-    target: 'esnext',
-  },
 });
