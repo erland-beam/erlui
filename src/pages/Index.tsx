@@ -15,7 +15,9 @@ export const IndexPage = () => {
 
   return (
     <div class='flex flex-col h-screen items-center justify-center px-4 index-gradient'>
-      <h1 class='mb-2 text-3xl font-bold'>Connect to a playground</h1>
+      <h1 class='text-center mb-2 text-3xl font-bold'>
+        Connect to a playground
+      </h1>
       <form
         onsubmit={async (event) => {
           event.preventDefault();
