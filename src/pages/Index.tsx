@@ -32,7 +32,6 @@ export const IndexPage = () => {
         <input
           name='playground-url'
           type='url'
-          autocomplete='on'
           pattern='wss?.*'
           placeholder='ws://localhost:8080'
           required
