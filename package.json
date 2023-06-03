@@ -23,5 +23,11 @@
     "@unocss/reset": "^0.52.7",
     "erland.ts": "^0.3.0",
     "solid-js": "^1.7.6"
-  }
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "erland.ts@0.3.0": "patches/erland.ts@0.3.0.patch"
+    }
+  },
+  "packageManager": "pnpm@8.6.0"
 }

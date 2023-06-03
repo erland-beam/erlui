@@ -1,0 +1,11 @@
+diff --git a/dist/index.mjs b/dist/index.mjs
+index dea3957280e1b752404ba5deca30a7499abb74ed..e34fb20597d1f5643785cb7757a6a86211545b76 100644
+--- a/dist/index.mjs
++++ b/dist/index.mjs
+@@ -1,5 +1,5 @@
+ // src/index.ts
+-var WebSocket = (globalThis == null ? void 0 : globalThis.WebSocket) ?? (await import("ws")).WebSocket;
++var WebSocket = globalThis.WebSocket;
+ var PlaygroundManager = class {
+   _url;
+   _options;
