@@ -14,6 +14,7 @@
     "@unocss/transformer-directives": "^0.52.7",
     "@unocss/vite": "^0.52.7",
     "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "typescript": "^5.0.4",
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"

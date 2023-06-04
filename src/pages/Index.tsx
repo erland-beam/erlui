@@ -14,8 +14,8 @@ export const IndexPage = () => {
   };
 
   return (
-    <div class='flex flex-col h-screen items-center justify-center px-4 index-gradient'>
-      <h1 class='text-center mb-2 text-3xl font-bold'>
+    <div class='flex h-screen flex-col items-center justify-center px-4'>
+      <h1 class='mb-2 text-center text-3xl font-bold'>
         Connect to a playground
       </h1>
       <form
@@ -29,7 +29,7 @@ export const IndexPage = () => {
 
           navigate('/erlui/playground');
         }}
-        class='flex items-center text-lg w-full max-w-128 min-w-64 border-2 border-solid border-rose rounded-full'
+        class='max-w-128 min-w-64 border-rose flex w-full items-center rounded-full border-2 border-solid text-lg'
       >
         <input
           name='playground-url'
@@ -38,14 +38,14 @@ export const IndexPage = () => {
           placeholder='ws://localhost:8080'
           required
           title='Playground WebSocket url'
-          class='w-full bg-transparent leading-16 pl-7 rounded-l-full outline-none'
+          class='leading-16 w-full rounded-l-full bg-transparent pl-7 outline-none'
         />
         <button
           type='submit'
           title='Connect to the playground'
-          class='display-inherit py-4 px-7 rounded-r-full'
+          class='display-inherit group rounded-r-full px-7 py-4'
         >
-          <span class='relative i-material-symbols:power-plug-outline-rounded w-8 h-8'></span>
+          <span class='i-material-symbols:power-plug-outline-rounded transition-250 relative h-8 w-8 group-hover:rotate-45'></span>
         </button>
       </form>
     </div>
