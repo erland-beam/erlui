@@ -45,11 +45,7 @@ export const IndexPage = () => {
           title='Connect to the playground'
           class='display-inherit py-4 px-7 rounded-r-full'
         >
-          <span
-            class={
-              'relative i-material-symbols:power-plug-outline-rounded w-8 h-8'
-            }
-          ></span>
+          <span class='relative i-material-symbols:power-plug-outline-rounded w-8 h-8'></span>
         </button>
       </form>
     </div>
